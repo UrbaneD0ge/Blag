@@ -5,4 +5,10 @@ class Pokemon extends Model {}
 
 pokemon.init({
     
+},
+{
+    sequelize,
+    freezeTableName: true,
+    
 })
+
